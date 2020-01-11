@@ -1,3 +1,9 @@
+# Dev: Zach Baird
+# Objective:
+# This method takes in a string, and changes each character in the string
+#   down the alphabet by whatever number is passed as the shift_factor.  
+
+
 def caesar_cipher(string_to_encrypt, shift_factor)
   alphabet = ("a".."z").to_a
   
